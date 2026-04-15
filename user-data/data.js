@@ -117,7 +117,7 @@ const data ={
         "Graph Neural Networks",
         "Recommendation Systems"
       ],
-      "icon": "network"
+      "icon": "network-wired"
     },
     {
       "title": "Columbia University | Explainable AI in Financial Prediction",
@@ -151,7 +151,7 @@ const data ={
         "PyTorch",
         "Portfolio Optimization"
       ],
-      "icon": "money"
+      "icon": "money-bill"
     },
     {
       "title": "Cornell University | IMDb Genre-Neutral Rating Research",
@@ -166,7 +166,7 @@ const data ={
         "A/B Testing",
         "Bias Mitigation"
       ],
-      "icon": "movie"
+      "icon": "film"
     },
   ],
 
