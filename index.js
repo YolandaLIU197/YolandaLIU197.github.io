@@ -82,23 +82,14 @@ function populateSkills(items, id) {
   const skillsTag = document.getElementById(id);
   if (!skillsTag || !items?.length) return;
 
-  const detailsTemplate = (details) => html`
-    ${details.map((detail) => {
-      const boldMatch = detail.match(/^<b>(.*?)<\/b>(.*)$/);
-  
-      if (boldMatch) {
+  const skillsTemplate = html`
+    ${items.map((item) => {
+      if (item.type === "heading") {
         return html`
-          <p class="timeline-text">
-            &blacksquare; <strong>${boldMatch[1]}</strong>${boldMatch[2]}
-          </p>
+          <div class="col-md-12 animate-box">
+            <h3 class="skill-category">${item.text}</h3>
+          </div>
         `;
-    }
-
-    return html`
-      <p class="timeline-text">&blacksquare; ${detail}</p>
-    `;
-  })}
-`;
       }
 
       return html`
@@ -200,11 +191,23 @@ function populateExp_Edu(items, id) {
   const mainContainer = document.getElementById(id);
   if (!mainContainer || !items?.length) return;
 
-  const detailsTemplate = (details) => html`
-    ${details.map(
-      (detail) => html` <p class="timeline-text">&blacksquare; ${detail}</p> `
-    )}
-  `;
+const detailsTemplate = (details) => html`
+  ${details.map((detail) => {
+    const boldMatch = detail.match(/^<b>(.*?)<\/b>(.*)$/);
+
+    if (boldMatch) {
+      return html`
+        <p class="timeline-text">
+          &blacksquare; <strong>${boldMatch[1]}</strong>${boldMatch[2]}
+        </p>
+      `;
+    }
+
+    return html`
+      <p class="timeline-text">&blacksquare; ${detail}</p>
+    `;
+  })}
+`;
 
   const tagsTemplate = (tags) => html`
     <div class="tags-container">
