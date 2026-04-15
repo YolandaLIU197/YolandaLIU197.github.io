@@ -1,7 +1,7 @@
 const data ={
   "bio": [
     "Hi, I'm Yolanda Liu, a Master's student in Financial Engineering at Columbia University, with an undergraduate background in Business and Information Science at Cornell University.",
-    "I specialize in machine learning, quantitative modeling, and software engineering, with hands-on experience in recommendation systems, explainable AI, and reinforcement learning — building end-to-end data systems that turn complex problems into actionable solutions.",
+    "I specialize in machine learning, quantitative modeling, and software engineering, with hands-on experience in recommendation systems, explainable AI, and reinforcement learning - building end-to-end data systems that turn complex problems into actionable solutions.",
     "I thrive in collaborative environments and bring both technical depth and strong communication across research, analytics, and business settings. I'm as comfortable whiteboarding models as I am presenting findings to stakeholders.",
     "My edge comes from bridging two worlds: the technical precision of an engineer and the strategic thinking of a business background. I care not just about building strong models, but about how they support real decisions and create value for the people I work with."
   ],
