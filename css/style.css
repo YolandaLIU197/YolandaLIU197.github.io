@@ -884,13 +884,13 @@ span {
 footer {
   font-size: 13px;
   background: var(--footer-bg);
-  padding: 2em 4em;
+  padding: 0.8em 1.5em;
   /* display: flex; */
   align-items: start;
   justify-content: center;
   gap: 1em;
   border-radius: 5px;
-  margin-bottom: 40px;
+  margin-bottom: 16px;
 }
 
 footer ul {
