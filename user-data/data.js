@@ -82,7 +82,7 @@ const data ={
         "Process Optimization",
         "ERP / SAP Process Analysis"
       ],
-      "icon": "people"
+      "icon": "briefcase"
     },
     {
       "title": "Tuck Advisors",
@@ -98,7 +98,7 @@ const data ={
         "Buy-Side M&A",
         "Strategic Analysis"
       ],
-      "icon": "money"
+      "icon": "piggy-bank"
     } 
     ],
   "academicexperience": [
