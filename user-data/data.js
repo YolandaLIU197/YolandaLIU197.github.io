@@ -168,6 +168,7 @@ const data ={
       ],
       "icon": "movie"
     },
+  ],
 
     
   "education": [
