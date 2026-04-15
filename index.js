@@ -80,14 +80,28 @@ function populateBio(items, id) {
 
 function populateSkills(items, id) {
   const skillsTag = document.getElementById(id);
+  if (!skillsTag || !items?.length) return;
 
-  const skillsTemplate = html` ${items.map(
-    (item) => html` <div class="col-md-3 animate-box">
-      <div class="progress-wrap">
-        <li class="skill-item">${item}</li>
-      </div>
-    </div>`
-  )}`;
+  const skillsTemplate = html`
+    ${items.map((item) => {
+      if (item.type === "heading") {
+        return html`
+          <div class="col-md-12 animate-box">
+            <h3 class="skill-category">${item.text}</h3>
+          </div>
+        `;
+      }
+
+      return html`
+        <div class="col-md-3 col-sm-6 animate-box">
+          <div class="progress-wrap">
+            <li class="skill-item">${item.text}</li>
+          </div>
+        </div>
+      `;
+    })}
+  `;
+
   render(skillsTemplate, skillsTag);
 }
 
