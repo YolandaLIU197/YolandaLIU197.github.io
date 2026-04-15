@@ -82,14 +82,23 @@ function populateSkills(items, id) {
   const skillsTag = document.getElementById(id);
   if (!skillsTag || !items?.length) return;
 
-  const skillsTemplate = html`
-    ${items.map((item) => {
-      if (item.type === "heading") {
+  const detailsTemplate = (details) => html`
+    ${details.map((detail) => {
+      const boldMatch = detail.match(/^<b>(.*?)<\/b>(.*)$/);
+  
+      if (boldMatch) {
         return html`
-          <div class="col-md-12 animate-box">
-            <h3 class="skill-category">${item.text}</h3>
-          </div>
+          <p class="timeline-text">
+            &blacksquare; <strong>${boldMatch[1]}</strong>${boldMatch[2]}
+          </p>
         `;
+    }
+
+    return html`
+      <p class="timeline-text">&blacksquare; ${detail}</p>
+    `;
+  })}
+`;
       }
 
       return html`
