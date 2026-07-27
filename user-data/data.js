@@ -58,7 +58,7 @@ const data ={
       "subtitle": "Data Engineering & ETL Automation Intern",
       "details": [
         "Developed and enhanced a configuration-driven ETL automation engine that ingests, normalizes, and integrates multi-source credit union data, including loans, deposits, investments, general ledger, and income statements, to generate official NCUA 5300 Call Reports; designed reusable YAML configurations to onboard five clients and achieve approximately 85% output accuracy on engine runs",
-        "Analyzed client data structures and translated raw product codes, GL accounts, and workbook layouts into standardized schemas; performed data cleaning, mapping, validation, reconciliation, and root-cause analysis to resolve source coding issues and mapping errors",
+        "Analyzed client data structures and translated raw product codes, GL accounts, and workbook layouts into standardized schemas; performed data cleaning, mapping, validation, reconciliation, and root-cause analysis to resolve source coding and mapping errors",
         "Composed an end-to-end SOP and presentation materials covering client data intake, ETL configuration, data pipeline execution, output validation, and handoff, enabling cross-functional teams and clients to adopt a repeatable, auditable automation workflow"
       ],
       "tags": [
@@ -74,8 +74,7 @@ const data ={
       "duration": "June 2026 - August 2026",
       "subtitle": "Software Developer Intern, Flutter Mobile App",
       "details": [
-        "Developed and tested Flutter/Firebase mobile app features for Am I Alone, an anonymous peer-support platform, including Google Play Billing integration, anonymous-user premium upgrade routing, direct-message feature gating, Settings-based subscription access, and group feed UI improvements",
-        "Implemented a reusable Google Play Billing service with product-detail querying, purchase-stream handling, and premium entry points from the Welcome page, anonymous-user DM upgrade popup, and Settings page; updated user flows to keep anonymous users in the premium conversion path instead of redirecting them to Login",
+        "Developed and tested Flutter/Firebase mobile app features for Am I Alone, an anonymous peer-support platform, including anonymous-user premium upgrade routing, direct-message feature gating, Settings-based subscription access, and group feed UI improvements",
         "Debugged and fixed UI/UX and data-display issues across group discussions, direct messaging, online user status, comment-count rendering, sign-up error handling, long-message display, and premium navigation flows; validated fixes on Android emulator and documented bugs in a structured QA tracker"
       ],
       "tags": [
