@@ -67,7 +67,7 @@ const data ={
         "Python",
         "YAML"
       ],
-      "icon": "Workflow"
+      "icon": "cogs"
     },
     {
       "title": "AITech Spaces",
@@ -83,7 +83,7 @@ const data ={
         "Google Play",
         "Mobile Development"
       ],
-      "icon": "App"
+      "icon": "mobile"
     },
     {
       "title": "Delonix Group",
