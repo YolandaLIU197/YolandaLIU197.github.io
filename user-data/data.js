@@ -59,7 +59,7 @@ const data ={
       "details": [
         "Developed and enhanced a configuration-driven ETL automation engine that ingests, normalizes, and integrates multi-source credit union data, including loans, deposits, investments, general ledger, and income statements, to generate official NCUA 5300 Call Reports; designed reusable YAML configurations to onboard five clients and achieve approximately 85% output accuracy on engine runs",
         "Analyzed client data structures and translated raw product codes, GL accounts, and workbook layouts into standardized schemas; performed data cleaning, mapping, validation, reconciliation, and root-cause analysis to resolve source coding and mapping errors",
-        "Composed an end-to-end SOP and presentation materials covering client data intake, ETL configuration, data pipeline execution, output validation, and handoff, enabling cross-functional teams and clients to adopt a repeatable, auditable automation workflow"
+        "Designed a Call Report automation UI prototype to align with the updated CU Standard Input Template process and help users navigate source intake, template preparation, validation readiness, reconciliation review, and report handoff"
       ],
       "tags": [
         "ETL Automation",
