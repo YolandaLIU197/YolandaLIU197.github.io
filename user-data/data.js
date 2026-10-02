@@ -229,8 +229,8 @@ const data ={
   },
 
   {
-    "title": "Wine Cellar Database & Price Prediction",
-    "duration": "Cornell University",
+    "title": "Cornell University | Wine Cellar Database & Price Prediction",
+    "duration": "September 2023 - December 2023",
     "subtitle": "Database & Predictive Modeling Project",
     "details": [
       "Designed a normalized relational database with four linked tables and enforced referential integrity using primary and foreign keys",
